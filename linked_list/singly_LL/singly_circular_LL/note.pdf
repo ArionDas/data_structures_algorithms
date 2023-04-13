@@ -1,0 +1,7 @@
+advantages:
+>> we can traverse the whole list from any node
+>> implementationof algorithms like 'round robin' // in operating system
+>> we can insert at the beginning and end by maintaining just one tail reference/pointer
+
+disadvantages:
+>> implementations of operations become complex since we need to make it circular everytime to maintain it
