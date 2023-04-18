@@ -49,10 +49,15 @@ Node* insert_at_end(Node* head, int d) {
         temp->next = head->next;
         head->next = temp;
 
-        int temp = head->data;
+        int temp_data = head->data;
         head->data = new_node->data;
-        new_node->data = temp;
+        new_node->data = temp_data;
 
-        return new_node;
+        /*
+        we have to return the updated head
+        head = new_node;
+        return head;
+        */
+        return new_node; 
     }
 }
