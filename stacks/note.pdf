@@ -1,0 +1,16 @@
+>> follows LIFO order
+
+>> functions avaialabele:
+---------------------------
+    >> push - if size is full, then "stack overflow"
+    >> pop - if size if zero, then "stack underflow"
+    >> peek - top view / top element
+    >> isEmpty
+
+>> STL
+--------
+    >> stack <int> s;
+        >> s.push(2);
+        >> s.pop();
+        >> s.top();
+        >> s.empty(); - return 1 or 0
