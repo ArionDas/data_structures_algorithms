@@ -5,6 +5,9 @@
     >> delete middle element in a stack
     >> insert element at the bottom of the stack
     >> reverse a stack using recursion
+    >> sort a stack
+    >> redundant brackets
 >> medium:
 ------------
     >> two stacks in an array
+    >> minimum cost to make the string valid
