@@ -1,0 +1,17 @@
+// addition operation at one end is called 'enqueue'
+// deletion operation at the other end is called 'dequeue'
+
+>> functions:
+    >> enqueue(x)
+    >> dequeue()
+    >> size()
+    >> isempty()
+    >> getFront()
+    >> getRear()
+
+>> applications:
+    >> limited resources so maintaining the queue
+    >> sync b/w. slow & fast devices
+    >> operating systems 
+    >> in computer networks
+    >> dequeue, priority queue, doubly ended dequeue
